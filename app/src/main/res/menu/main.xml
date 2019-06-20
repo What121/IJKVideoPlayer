@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/local_media"
+        android:title="本地视频"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/zhibo_RTMP"
+        android:title="RTMP协议直播流"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/zhibo_RTSP"
+        android:title="RTSP协议直播流"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/zhibo_HTTPS"
+        android:title="HTTPS协议直播流"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>
